@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repayment Calculator</title>
+    <link rel="stylesheet" href="cs.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="base">
+        <div class="card">
+          <h1>Mortgage Calculatour</h1>
+          <p for="">Mortgage Amount</p>
+          <input type="text" name="" id="Mortgage_Amount"placeholder="300,000" />
+          <div class="two">
+            <div class="two-one">
+              <p for="">Mortgage Term</p>
+              <input type="text" name="" id="Mortgage_Term" placeholder="25 years"/>
+            </div>
+            <div class="two-two">
+              <p for="">Interest Rate</p>
+              <input type="text" name="" id="Interest_Rate" placeholder="5%"/>
+            </div>
+          </div>
+          <button onclick="Add()">
+            <img src="img/icon-calculator.svg" alt="" /> Calculate Repayments
+          </button>
+        </div>
+
+        <div class="card-two">
+          <img src="img/illustration-empty.svg" alt="" />
+          <div class="part">
+            <h2 id="h2">Results Shown here</h2>
+            <h2 id="h3">
+              <p class="p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                rerum eveniet explicabo animi deleniti error molestias enim,
+                quibusdam aspernatur vitae repellat amet perferendis sed eos
+                quam fugit corrupti quisquam a.
+              </p>
+            </h2>
+            <h2 id="h4"></h2>
+          </div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
